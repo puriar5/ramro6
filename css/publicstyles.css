@@ -1,0 +1,313 @@
+*{
+	font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif;
+}
+body{
+	background-color: #FFFFFF;
+}
+.BrandName{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 0.9em;
+	color: #cd004d;
+}
+.topmenu{
+	display: block;
+}
+.topspace{
+	height: 5px; 
+	background:#cd004d;
+}
+
+.Topheader{
+	margin: 10px;
+	font-family:  "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.2em;
+	color:#515151;
+}
+
+.BannerSlogan{
+	font-family:  "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 2.1em;
+	color:#fff;
+}
+#footer{
+	border-bottom: 1px solid black;
+	color: #000000;
+	text-align: center;
+	
+}
+.maprup {
+    position: relative;
+    height: 200px;
+    text-align: center;
+}
+
+#heading{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	color: rgb(42, 100, 150);
+	font-size: 20px;
+	line-height: 15px;
+}
+
+#headingmain{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 25px;
+}
+.headerDetail{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+.headerDetailDesc{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.overviewDetail{
+	font-size: 16px;
+	text-align: justify;
+}
+#heading:hover{
+	color: #0090DB;
+	text-decoration: underline;
+}
+
+.description{
+	color: #939393;
+	font-weight: bold;
+	margin-top: -2px;
+}
+.companybusiness{
+	font-family: "Open Sans", Arial, Helvetica, Verdana, sans-serif;
+	color: #cd004d;
+	font-size: 14px;
+	font-weight: bold;
+}
+.post{
+	line-height: 16px;
+	text-align: justify;
+}
+.vertical-divider{
+	margin-top: 20px;
+	border-left: 2px solid #e1e1e1;
+	min-height: 220px;
+	color: #FFEA00;
+	font-size: 20px;
+ }
+.rating{
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.ratingmain{
+	font-size: 2.4em;
+	font-weight: bold;
+	color: #fedb00;
+	line-height: 18px;
+}
+.review{
+	font-size: 18px;
+	color: #0284c3;
+}
+.reviewa{
+	color: black;
+}
+.thumbnail:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.BannerCompanyInfo{
+	margin: 0;
+	padding: 0 0 0 0;
+	background-color: #222222;
+	height: 300px;
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+}
+.imageicon{
+	width: 200px;
+	height: 100%;
+}
+.lead{
+	font-size: 16px;
+}
+.share-buttons{ 
+	width: 35px; 
+	padding: 5px; 
+	border: 0; 
+	box-shadow: 0; 
+	display: inline; 
+}
+.companyImg{
+	max-height: 150px;
+}
+.companyImgHome{
+	max-height: 200px;
+}
+.CommentBlock{
+	background-color: #F6F7F9;
+	padding-left: 10px;
+}
+.Comment-info{
+	color: #365899;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.comment{
+	margin-top: -2px;
+	padding-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.FieldInfo{
+	color: #cd004d;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.2em;
+}
+
+/*Custom Control Check box*/
+.page {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.custom-checkbox-input {
+  display: none;
+}
+
+.custom-checkbox-text {
+  padding: 5px;
+  background-color: #fff;
+  color: #f0ad4e;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-checkbox-input:checked ~ .custom-checkbox-text {
+  background-color: #f0ad4e;
+  color: white;
+}
+.adscontainer{
+	z-index: 1;
+	display: block;	
+	margin-top: -150px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.adsmid{
+	border: 1px #ecebf0 solid;
+	z-index: 1;
+	display: block;
+	margin-top: -200px;
+	background-color: #fff;
+	text-align: center;
+}
+@media (max-width: 770px){
+ 	.adscontainer {
+		margin-top: 0;
+		background-color: #fff;
+		text-align: center;
+	  }
+	.adsmid{
+		margin-top: 0;
+		background-color: #fff;
+		text-align: center;
+	}
+}
+
+.homeicon{	
+	margin:0 auto;
+	padding-top: 14px;
+	width: 90px;
+	height: 90px;
+	color:#fff;
+	text-align: center;
+	font-size: 3em;
+	background: url(../images/home-icon-bg.png) no-repeat;
+}
+.businesshome{
+	background-color: #f5f6f6;
+}
+		
+.ads-brief{
+	margin-top: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-weight: bold;
+	font-size: 16px;
+}
+.tablelocation{
+	line-height: 30px;
+}
+.location{
+	color: #939393;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: -2px;
+}
+
+.descfeature{
+	margin-top: 160px;
+	padding: 0 0 0 10px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+.descfeature:hover{
+	background: white;
+	color: #000;
+	opacity: 0.9;
+}
+.upload{
+	z-index: 1;
+	margin-top:-50px;
+}
+
+.ratingstar{
+	position: absolute;
+	display: flex;
+	transform: translate(-0%,-0%) rotateY(180deg);
+	
+}
+.ratingstar input{
+	display: none;
+}
+.ratingstar label{
+	display: block;
+	cursor: pointer;
+	width: 55px;
+}
+.ratingstar label:before{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 50px;
+	color:#434343;
+}
+.ratingstar label:after{
+	content: '\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	color:#fedb00;
+	top: 0;
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.ratingstar label:hover:after,
+.ratingstar label:hover ~ label:after,
+.ratingstar input:checked ~ label:after
+{
+	opacity: 1;
+}
